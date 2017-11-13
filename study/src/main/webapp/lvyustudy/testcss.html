@@ -164,6 +164,25 @@
     </ul>
     </div>
 </div>*/
+    .part_eight>span{
+        background-color: red;
+        transition:all 3s ease;
+    }
+
+    .part_eight>span：nth-child(1):hover{
+        background-color: blue;
+    }
+
+    .part_eight .second{
+        width: 150px;
+        background-color:yellow;
+        display: block;
+        transition:all 5s ease;
+    }
+
+    .part_eight .second:hover{
+        width: 300px;
+    }
 
 
 </style>
@@ -281,6 +300,14 @@
         <li>包晓兵</li>
     </ul>
     </div>
+</div>
+
+<div class="part_eight">
+    <h1>transition的使用</h1>
+    <h2>定义元素，在css样式转换过程中的动画</h2>
+    <span>一个span元素，当鼠标浮动的时候，背景色由红色，变为蓝色</span>
+    <span class="second">一个span元素，为了能定义长短，设置了display:block。当鼠标浮动的时候，长度由50变为 150；
+
 </div>
 </body>
 </html>
