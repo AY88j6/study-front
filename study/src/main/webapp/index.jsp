@@ -1,10 +1,11 @@
 <html>
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
 <body>
 <h2>Hello World!</h2>
 
-<a href="lvyustudy/test.html">驴鱼社区</a>
+<a href="lvyustudy/test.html">Test</a>
+<a href="lvyustudy/testcss.html">testcss</a>
 </body>
 </html>
