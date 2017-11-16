@@ -6,6 +6,12 @@ body{
     background-image: url(../img/lvyuBackGround.jpg);
     background-size: cover;
 }
+div{
+    border:1px solid blue;
+    /*clear: both;*/
+    margin-bottom: 20px;
+    overflow: hidden;
+}
 
 .loginForm{
     width: 320px;
@@ -39,6 +45,7 @@ body{
 
 .loginForm .loginButton{
     text-align: center;
-    margin-top: 50px;
-    clear: both;
+    /*margin-top: px;*/
+    /*clear: none;*/
+    border:2px solid red;
 }
