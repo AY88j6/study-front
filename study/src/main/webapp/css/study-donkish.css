@@ -7,45 +7,55 @@ body{
     background-size: cover;
 }
 div{
-    border:1px solid blue;
-    /*clear: both;*/
-    margin-bottom: 20px;
     overflow: hidden;
 }
 
 .loginForm{
-    width: 320px;
+    width: 380px;
     position: absolute;
-    top: 60%;
-    left:70%;
-    clear:both;
+    top: 55%;
+    left:65%;
     font: 12px SimSun,"Arial Narrow",HELVETICA;
     color:white;
-    border:1px solid white;
+}
+.loginItem{
+    margin-top: 15px;
 }
 
 .loginForm input{
     background: transparent;
-    height: 30px;
-    width: 250px;
+    height: 35px;
+    line-height: 35px;
+    width: 300px;
     outline: 0;
     border:none;
     border-bottom: 1px solid white;
     float:left;
+    color: white;
+    padding-left: 5px;
 }
 
 .loginForm label{
     float:left;
     display: block;
     width:60px;
-    height:30px;
-    line-height: 45px;
+    height:35px;
+    line-height: 35px;
     vertical-align: bottom;
 }
 
 .loginForm .loginButton{
     text-align: center;
-    /*margin-top: px;*/
-    /*clear: none;*/
-    border:2px solid red;
+}
+
+.loginForm .loginButton button{
+    width: 120px;
+    height: 35px;
+    background-color: yellow;
+    border-radius: 19px;
+    border:none;
+}
+
+.loginForm .loginButton button:hover{
+    background: rgba(0, 188, 12, 0.78);
 }
