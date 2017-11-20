@@ -7,5 +7,7 @@
 
 <a href="lvyustudy/test.html">Test</a>
 <a href="lvyustudy/testcss.html">testcss</a>
+<a href="lvyustudy/qrcode.html">testqrcode</a>
+<a href="lvyustudy/bxslider.html">bxslider</a>
 </body>
 </html>
