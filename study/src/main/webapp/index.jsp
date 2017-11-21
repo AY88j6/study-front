@@ -9,5 +9,6 @@
 <a href="lvyustudy/testcss.html">testcss</a>
 <a href="lvyustudy/qrcode.html">testqrcode</a>
 <a href="lvyustudy/bxslider.html">bxslider</a>
+<a href="lvyustudy/ueditor.html">ueditor</a>
 </body>
 </html>
