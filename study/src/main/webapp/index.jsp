@@ -10,5 +10,6 @@
 <a href="lvyustudy/qrcode.html">testqrcode</a>
 <a href="lvyustudy/bxslider.html">bxslider</a>
 <a href="lvyustudy/ueditor.html">ueditor</a>
+<a href="lvyustudy/template.html">ueditor</a>
 </body>
 </html>
