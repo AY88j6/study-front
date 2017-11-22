@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>artTemplate语法</title>
+    <script type="text/javascript" src="../js/template-web.js"></script>
+</head>
+<body>
+    <div id="container"></div>
+    <script type="text/html" id="div">
+        <h1>{{name}}</h1>
+        <h2>{{age}}</h2>
+    </script>
+    <script type="text/javascript">
+        var data = {
+            name:"geekWeb",
+            age:22
+        }
+        var html = template('div',data);
+        document.getElementById("container").innerHTML = html;
+    </script>
+</body>
+</html>
