@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>require实现js模块化编程</title>
+    <script type="text/javascript" src="../js/require.js"></script>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+    require(['../js/moduleA.js'],function(moduleA){
+        moduleA.say("hello require")
+    })
+</script>
+</html>
